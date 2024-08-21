@@ -107,7 +107,7 @@ const InstallPage = () => {
       </First>
     )}
       <Second>
-        {!showInstallPrompt ? (
+        {showInstallPrompt ? (
           <div>
             <LoadingButton
               variant="outlined"
